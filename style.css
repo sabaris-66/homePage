@@ -83,13 +83,13 @@ section{
 .battle{
     max-width: 480px;
     min-width: 360px;
-    width: 400px;
+    width: 380px;
     height: auto;
     display: flex;
     flex-direction: column;
     /* gap: 10px; */
     border: 10px yellow solid;
-    margin: 10px;
+    margin: 15px;
     padding: 15px;
     /* background-color: #f2f28d; */
     background-color: white;
