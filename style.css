@@ -5,6 +5,8 @@
 body{
     display: flex;
     flex-direction: column;
+    /* margin: 0;
+    padding: 0; */
 }
 
 header{
@@ -12,10 +14,10 @@ header{
     flex-wrap: wrap;
     gap: 10px;
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
     justify-content: space-around;
-    background-color: yellow;
-    border: 10px blue solid;
+    background-color: gold;
+    border: 10px black solid;
     border-radius: 30px;
 }
 
@@ -53,3 +55,20 @@ header .dp img{
     /* justify-content: space-around; */
 }
 
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.battle{
+    width: 320px;
+    height: auto;
+}
+
+.battle img{
+    width: 320px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
