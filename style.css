@@ -62,13 +62,28 @@ section{
 }
 
 .battle{
-    width: 320px;
+    max-width: 480px;
+    min-width: 360px;
+    width: 400px;
     height: auto;
 }
 
 .battle img{
-    width: 320px;
+    max-width: 480px;
+    min-width: 360px;
+    width: 400px;
     height: auto;
     object-fit: cover;
     object-position: center;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.battleTitle{
+    display: flex;
+    justify-content: space-around;
 }
