@@ -5,6 +5,7 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: white;
     /* margin: 0;
     padding: 0; */
 }
@@ -16,8 +17,8 @@ header{
     margin: 10px;
     padding: 10px;
     justify-content: space-around;
-    background-color: gold;
-    border: 10px black solid;
+    background-color: white;
+    border: 10px yellow solid;
     border-radius: 30px;
 }
 
@@ -34,7 +35,7 @@ header .dp img{
     display: flex;
     flex-direction: column;
     font-size: 25px;
-    background-color: white;
+    background-color: yellow;
     border-radius: 30px;
     margin: 25px;
     padding: 25px;
@@ -55,10 +56,24 @@ header .dp img{
     /* justify-content: space-around; */
 }
 
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    border: 10px;
+    border-color: yellow;
+    border-style: solid;
+}
+
 section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
+    gap: 25px;
 }
 
 .battle{
@@ -66,24 +81,47 @@ section{
     min-width: 360px;
     width: 400px;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    border: 10px yellow solid;
+    padding: 15px;
+    /* background-color: #f2f28d; */
+    background-color: white;
+    box-sizing: content-box;
+    /* border-radius: 30px; */
 }
 
 .battle img{
     max-width: 480px;
     min-width: 360px;
-    width: 400px;
+    /* width: 400px; */
     height: auto;
     object-fit: cover;
     object-position: center;
+    border: 5px black solid;
+    /* border-radius: 30px; */
 }
 
 .description{
     display: flex;
     flex-direction: column;
     text-align: justify;
+    gap: 10px;
+    background-color: yellow;
+    padding: 10px;
+    /* border-radius: 30px; */
+    /* background-color: white; */
 }
 
 .battleTitle{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bolder;
+    gap: 25px;
+}
+
+.battleTitle a i{
+    font-size: 30px;
 }
