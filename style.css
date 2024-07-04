@@ -89,6 +89,7 @@ section{
     flex-direction: column;
     /* gap: 10px; */
     border: 10px yellow solid;
+    margin: 10px;
     padding: 15px;
     /* background-color: #f2f28d; */
     background-color: white;
@@ -150,7 +151,8 @@ footer{
     font-size: 20px;
 }
 
-footer .contactDp{
+footer .contactDp,
+header .dp{
     display: flex;
     justify-content: center;
     align-items: center;
