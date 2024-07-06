@@ -82,7 +82,7 @@ section{
 
 .battle{
     max-width: 480px;
-    min-width: 360px;
+    min-width: 320px;
     width: 380px;
     height: auto;
     display: flex;
@@ -117,7 +117,7 @@ section{
 
 .battle img{
     max-width: 480px;
-    min-width: 360px;
+    min-width: 320px;
     /* width: 400px; */
     height: auto;
     object-fit: cover;
