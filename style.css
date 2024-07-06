@@ -5,7 +5,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: black;
     /* margin: 0;
     padding: 0; */
 }
@@ -18,7 +18,7 @@ footer{
     margin: 10px;
     padding: 10px;
     justify-content: space-around;
-    background-color: white;
+    background-color: black;
     border: 10px yellow solid;
     border-radius: 30px;
 }
@@ -56,7 +56,7 @@ h2{
     display: flex;
     /* margin-left: 0; */
     justify-content: flex-end; 
-    gap: 10px
+    gap: 20px
     /* justify-content: space-around; */
 }
 
@@ -92,14 +92,27 @@ section{
     margin: 15px;
     padding: 15px;
     /* background-color: #f2f28d; */
-    background-color: white;
+    background-color: black;
     box-sizing: content-box;
     /* border-radius: 30px; */
 }
 
 .battle:hover{
     transform: scale(1.1, 1.1);
-    border-color: black;
+    border-color: white;
+    background-color: gray;
+}
+
+.battleTitle a:hover
+{
+    transform: scale(1.3, 1.3);
+    color: green;
+}
+
+.icons i:hover{
+    cursor: pointer;
+    color: gray;
+    transform: scale(1.6, 1.6);
 }
 
 .battle img{
